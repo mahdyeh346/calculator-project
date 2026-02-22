@@ -29,7 +29,7 @@ def main():
         choice = input("Choose operation (1-7): ")
         
         if choice == '7':
-            print("Goodbye!")
+            print("Finished!")
             break
         
         if choice in ['1', '2', '3', '4', '5', '6']:
