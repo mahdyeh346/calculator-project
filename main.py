@@ -23,6 +23,7 @@ def get_numbers():
         return None, None
 
 def main():
+    print("Starting calculator program...")
     while True:
         show_menu()
         choice = input("Choose operation (1-7): ")
